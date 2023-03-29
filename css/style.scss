@@ -382,5 +382,58 @@ p.color2 {
 
 // Footer {
 .footer {
-    margin-top: 110px;
+    background-image: url("../img/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    .container-fluid {
+        .row {
+            .box-footer {
+                padding-top: 150px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+                p {
+                    display: flex;
+                    padding: 0;
+                    margin: 5px 0;
+                }
+                h5 {
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+            }
+            .box1 {
+                padding-top: 35px;
+                padding-left: 35px;
+                h3 {
+                    color: #fd7b38;
+                    font-weight: 600;
+                }
+                p {
+                    color: #fff;
+                }
+            }
+            .box2 {
+                color: #fff;
+                padding-top: 35px;
+                padding-right: 35px;
+                i {
+                    float: right;
+                    padding: 0 20px;
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                    color: #fff;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 }

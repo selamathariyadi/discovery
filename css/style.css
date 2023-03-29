@@ -350,5 +350,54 @@ p.color2 {
 }
 
 .footer {
-  margin-top: 110px;
+  background-image: url("../img/Background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.footer .container-fluid .row .box-footer {
+  padding-top: 150px;
+}
+.footer .container-fluid .row .box-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+.footer .container-fluid .row .box-footer p {
+  display: flex;
+  padding: 0;
+  margin: 5px 0;
+}
+.footer .container-fluid .row .box-footer h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer .container-fluid .row .box1 {
+  padding-top: 35px;
+  padding-left: 35px;
+}
+.footer .container-fluid .row .box1 h3 {
+  color: #fd7b38;
+  font-weight: 600;
+}
+.footer .container-fluid .row .box1 p {
+  color: #fff;
+}
+.footer .container-fluid .row .box2 {
+  color: #fff;
+  padding-top: 35px;
+  padding-right: 35px;
+}
+.footer .container-fluid .row .box2 i {
+  float: right;
+  padding: 0 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
