@@ -56,14 +56,45 @@ p.color2 {
   font-size: 25px;
   font-weight: 800;
 }
+.navbar button {
+  width: 134px;
+  height: 35px;
+  background-color: #34A753;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 21.94px;
+  border: none;
+}
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #0c5b21;
+  color: #8F8F8F;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
+  font-style: medium;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #0C5B21;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #0C5B21;
+}
+.navbar .navbar-nav .nav-item .nav-link.active::after,
+.navbar .navbar-nav .nav-item .nav-link:hover::after {
+  content: "";
+  width: 70px;
+  height: 2px;
+  background: #fd7b38;
+  position: absolute;
+  bottom: -1px;
+  left: 25px;
 }
 
 .hero {

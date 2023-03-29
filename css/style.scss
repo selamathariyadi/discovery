@@ -58,58 +58,50 @@ p.color2 {
         font-size: 25px;
         font-weight: 800;
     }
+    button {
+        width: 134px;
+        height: 35px;
+        background-color: #34A753;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        line-height: 21.94px;
+        border: none;
+    }
     .navbar-nav {
         .nav-item {
+            position: relative;
             .nav-link {
-                color: #0c5b21;
+                color: #8F8F8F;
                 font-family: Montserrat;
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 22px;
                 letter-spacing: 0em;
                 text-align: left;
+                font-style: medium;
+            }
+            .nav-link.active {
+                color: #0C5B21;
+                font-weight: bold;
+            }
+            .nav-link:hover {
+                color: #0C5B21;
+            }
+            .nav-link.active::after,
+            .nav-link:hover::after {
+                content: "";
+                width: 70px;
+                height: 2px;
+                background: #fd7b38;
+                position: absolute;
+                bottom: -1px;
+                left: 25px;
             }
         }
     }
 }
 
-// .hero {
-//     height: 80vh;
-//     position: relative;
-//     .container {
-//         .content-box {
-//             padding-top: 150px;
-//             button {
-//                 margin-bottom: 20px;
-//                 text-align: start;
-//                 padding-left: 0;
-//             }
-//         }
-//         .banner {
-//             img {
-//                 width: 100%;
-//                 height: 50vh;
-//                 right: -50px;
-//                 z-index: -1;
-//                 position: relative;
-//                 background-position: center center;
-//                 clip-path: polygon( 100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
-//                 border: 2px solid white;
-//             }
-//         }
-//         .banner1 {
-//             img {
-//                 width: 350px;
-//                 height: 35vh;
-//                 position: absolute;
-//                 z-index: 1;
-//                 top: 200px;
-//                 right: -80;
-//                 border: 12px solid white;
-//             }
-//         }
-//     }
-// }
 .hero {
     height: 70vh;
     position: relative;
