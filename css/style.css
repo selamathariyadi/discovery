@@ -107,6 +107,20 @@ p.color2 {
   margin-bottom: 20px;
   text-align: start;
   padding-left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.hero .container-fluid .content-box button i {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+}
+.hero .container-fluid .content-box button:hover,
+.hero .container-fluid .content-box i:hover {
+  color: #FD7B38;
 }
 .hero .container-fluid .banner img {
   width: 100%;
@@ -152,6 +166,9 @@ p.color2 {
   font-style: medium;
   line-height: 22px;
   border-radius: 5px;
+}
+.most .container-fluid .text-end button:hover {
+  background-color: #1a2c21;
 }
 .most .container-fluid .img-box {
   position: relative;
