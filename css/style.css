@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 49px;
+  color: #4d5a52;
+}
+
+p.color1 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+p.color2 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.bg-green1 {
+  color: #34a753;
+}
+
+.bg-green2 {
+  color: #0c5b21;
+}
+
+.bg-orange {
+  color: #fd7b38;
+}
+
+.section-m1 {
+  margin: 80px 0;
+}
+
+.mar-top {
+  margin-top: 100px;
+}
+
+.navbar .navbar-brand {
+  color: #4d5a52;
+  font-size: 25px;
+  font-weight: 800;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #0c5b21;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero {
+  height: 70vh;
+  position: relative;
+}
+.hero .container-fluid {
+  align-content: center;
+}
+.hero .container-fluid .content-box {
+  padding-top: 150px;
+}
+.hero .container-fluid .content-box button {
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 0;
+}
+.hero .container-fluid .banner img {
+  width: 100%;
+  height: 50vh;
+  z-index: -1;
+  position: relative;
+  background-position: center center;
+  -webkit-clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+          clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+  border: 2px solid white;
+}
+.hero .container-fluid .banner1 img {
+  width: 300px;
+  height: 35vh;
+  position: absolute;
+  z-index: 1;
+  top: 200px;
+  right: -20;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+}
+
+.most .container-fluid .most-text h4 {
+  color: #FD7B38;
+  font-style: medium;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 30px;
+}
+.most .container-fluid .text-end {
+  padding-right: 30px;
+  align-items: center;
+}
+.most .container-fluid .text-end button {
+  width: 180px;
+  height: 30px;
+  align-items: center;
+  background-color: #34A753;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-style: medium;
+  border-radius: 5px;
+}
+.most .container-fluid .img-box {
+  position: relative;
+  cursor: pointer;
+}
+.most .container-fluid .img-box img {
+  width: 290px;
+  height: 55vh;
+  border-radius: 10px;
+}
+.most .container-fluid .img-box h2 {
+  color: #0a0a0a;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 10px;
+}
+.most .container-fluid .img-box p {
+  color: #fff;
+  font-size: 18px;
+  font-style: medium;
+  line-height: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  padding: 10px;
+}
+
+.travel-experience {
+  background-image: url(../img/vector-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.travel-experience .container .row .left-travel-experience .content-left-travel {
+  height: 694px;
+  display: grid;
+  place-content: center;
+}
+.travel-experience .container .row .left-travel-experience .content-left-travel h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 49px;
+}
+.travel-experience .container .row .left-travel-experience .content-left-travel h1 span {
+  color: #fd7b38;
+}
+.travel-experience .container .row .left-travel-experience .content-left-travel p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.travel-experience .container .row .right-travel-experience {
+  position: relative;
+}
+.travel-experience .container .row .right-travel-experience .box {
+  width: 280px;
+  height: 141px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.travel-experience .container .row .right-travel-experience .box-our-ethics {
+  top: 42%;
+}
+.travel-experience .container .row .right-travel-experience .box-innovations {
+  top: 27%;
+  left: 55%;
+}
+.travel-experience .container .row .right-travel-experience .box-responsibility {
+  bottom: 27%;
+  left: 55%;
+}
+.travel-experience .container .row .right-travel-experience .up-side {
+  display: flex;
+  padding: 15px 0 0 15px;
+}
+.travel-experience .container .row .right-travel-experience .up-side h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fd7b38;
+}
+.travel-experience .container .row .right-travel-experience .down-side {
+  padding: 15px 0 0 15px;
+}
+.travel-experience .container .row .right-travel-experience .down-side p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #1a2c21;
+}
+
+.our-package .container .our-package-content .up-side-content h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #0c5b21;
+}
+.our-package .container .our-package-content .up-side-content h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fd7b38;
+}
+.our-package .container .our-package-content .middle-side-content {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-around;
+}
+.our-package .container .our-package-content .middle-side-content .card {
+  width: 538px;
+  height: 314px;
+  border-radius: 10px;
+}
+.our-package .container .our-package-content .middle-side-content .card h6 {
+  padding: 47px 40px 0 40px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fd7b38;
+}
+.our-package .container .our-package-content .middle-side-content .card h1 {
+  padding: 0 40px 0 40px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.our-package .container .our-package-content .middle-side-content .card p {
+  padding: 31px 60px 0 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.our-package .container .our-package-content .middle-side-content .private-trip {
+  background-color: #1a2c21;
+}
+.our-package .container .our-package-content .middle-side-content .open-trip {
+  background-color: #0c5b21;
+}
+.our-package .container .our-package-content .down-side-content {
+  margin-top: 205px;
+  height: 238px;
+  background-color: #1a2c21;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows {
+  display: flex;
+  justify-items: center;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #fd7b38;
+  padding: 50px 0 0 50px;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side h1 span {
+  color: #ffffff;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows .left-down-side p {
+  color: #ffffff;
+  padding: 35px 0 50px 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.our-package .container .our-package-content .down-side-content .down-side-rows .right-down-side .button {
+  color: #ffffff;
+  background-color: #34a753;
+  padding: 5px 34px;
+  gap: 10px;
+  border-radius: 5px;
+  flex-direction: row;
+  width: 219px;
+  height: 52px;
+}
+
+.footer {
+  margin-top: 110px;
+}/*# sourceMappingURL=style.css.map */
